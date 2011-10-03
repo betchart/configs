@@ -1,0 +1,25 @@
+app-editors/emacs		gtk toolkit-scroll-bars
+sci-physics/root		fftw
+sci-physics/pythia		examples
+net-dns/avahi			mdnsresponder-compat
+
+net-libs/xulrunner 		custom-optimization 
+mail-client/thunderbird 	custom-optimization -crypt
+www-client/firefox 		custom-optimization 
+
+sys-devel/gcc			gcj
+app-text/texlive		extra humanities science
+dev-java/icedtea		-nsplugin
+www-plugins/lightspark		-nsplugin
+
+
+
+##### dependency resolution
+
+dev-libs/libxml2		icu
+
+# amarok
+virtual/mysql			embedded
+dev-db/mysql			embedded
+
+

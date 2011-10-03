@@ -1,0 +1,13 @@
+net-wireless/iwl6005-ucode	~amd64
+www-plugins/google-talkplugin	~amd64
+www-plugins/lightspark 		~amd64
+
+dev-java/icedtea 		~amd64
+dev-java/icedtea-web 		~amd64
+
+
+#ROOT
+sci-physics/root		~amd64
+sci-mathematics/rngstreams	~amd64
+sci-mathematics/unuran 		~amd64
+dev-cpp/gccxml 			~amd64

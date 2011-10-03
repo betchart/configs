@@ -1,0 +1,2 @@
+CFLAGS="$-march=native -mno-avx -O2 -pipe"
+CXXFlAGS="${CFLAGS}"
