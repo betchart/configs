@@ -6,7 +6,9 @@ kde-base/kde-meta
 kde-base/svgpart
 kde-misc/wicd-client-kde
 mail-client/thunderbird
+media-gfx/imagemagick
 media-sound/amarok
+media-sound/mpg123
 net-analyzer/nmap
 net-misc/dhcpcd
 net-misc/wicd
