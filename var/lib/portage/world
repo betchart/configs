@@ -24,6 +24,7 @@ sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/portage
 sys-boot/grub
+sys-fs/dosfstools
 sys-fs/udev
 sys-kernel/gentoo-sources
 sys-kernel/module-rebuild

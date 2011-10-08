@@ -17,6 +17,7 @@
 /dev/sda2		none		swap		sw		0 0
 /dev/sda5		/		ext4		noatime		0 1
 /dev/sda6		/home		ext4		noatime		0 2
+/dev/sdb2		/backup		ext4		noauto,noatime,user	0 2
 
 /dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
 
