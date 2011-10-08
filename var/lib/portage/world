@@ -1,4 +1,5 @@
 app-admin/sysklogd
+app-backup/rdiff-backup
 app-portage/gentoolkit
 dev-java/icedtea-web
 dev-python/numpy
@@ -7,6 +8,8 @@ kde-base/svgpart
 kde-misc/wicd-client-kde
 mail-client/thunderbird
 media-gfx/imagemagick
+media-gfx/transfig
+media-gfx/xfig
 media-sound/amarok
 media-sound/mpg123
 media-sound/vorbis-tools
@@ -35,3 +38,4 @@ www-plugins/google-talkplugin
 www-plugins/lightspark
 x11-base/xorg-server
 x11-terms/xterm
+x11-wm/xmonad
