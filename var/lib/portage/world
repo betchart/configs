@@ -1,5 +1,6 @@
 app-admin/sysklogd
 app-backup/rdiff-backup
+app-editors/nano
 app-portage/gentoolkit
 dev-java/icedtea-web
 dev-python/numpy
