@@ -4,6 +4,7 @@ app-editors/nano
 app-portage/gentoolkit
 dev-java/icedtea-web
 dev-python/numpy
+dev-util/meld
 kde-base/kde-meta
 kde-base/svgpart
 kde-misc/wicd-client-kde
