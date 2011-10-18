@@ -30,6 +30,7 @@ sys-fs/dosfstools
 sys-fs/udev
 sys-kernel/gentoo-sources
 sys-kernel/module-rebuild
+sys-power/powertop
 sys-process/vixie-cron
 virtual/jdk
 virtual/latex-base
