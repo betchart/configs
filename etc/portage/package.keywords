@@ -1,6 +1,7 @@
 net-wireless/iwl6005-ucode	~amd64
 www-plugins/google-talkplugin	~amd64
 www-plugins/lightspark 		~amd64
+x11-misc/i3lock			~amd64
 
 dev-java/icedtea 		~amd64
 dev-java/icedtea-web 		~amd64
