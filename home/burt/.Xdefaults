@@ -1,0 +1,5 @@
+URxvt.depth: 32
+URxvt*background: rgba:0000/0000/0000/cccc
+URxvt*foreground: rgba:aaaa/aaaa/aaaa/cccc
+URxvt*scrollBar: 0
+URxvt*font: xft:Liberation Mono:size=9

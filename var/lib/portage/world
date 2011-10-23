@@ -1,7 +1,9 @@
 app-admin/sysklogd
 app-backup/rdiff-backup
 app-editors/nano
+app-emacs/haskell-mode
 app-portage/gentoolkit
+app-text/gv
 dev-java/icedtea-web
 dev-python/numpy
 dev-util/meld
@@ -44,7 +46,12 @@ www-plugins/lightspark
 x11-apps/xmodmap
 x11-base/xorg-server
 x11-misc/dmenu
+x11-misc/dzen
+x11-misc/hsetroot
 x11-misc/i3lock
 x11-misc/slock
+x11-misc/xcompmgr
+x11-terms/rxvt-unicode
 x11-terms/xterm
 x11-wm/xmonad
+x11-wm/xmonad-contrib
