@@ -33,6 +33,7 @@ sys-fs/udev
 sys-kernel/gentoo-sources
 sys-kernel/module-rebuild
 sys-power/acpi
+sys-power/acpid
 sys-power/powertop
 sys-process/vixie-cron
 virtual/jdk
@@ -43,6 +44,7 @@ www-client/links
 www-plugins/adobe-flash
 www-plugins/google-talkplugin
 www-plugins/lightspark
+x11-apps/xev
 x11-apps/xmodmap
 x11-base/xorg-server
 x11-misc/dmenu
