@@ -20,6 +20,7 @@ media-sound/vorbis-tools
 media-video/gxine
 net-analyzer/nmap
 net-misc/dhcpcd
+net-misc/whois
 net-misc/wicd
 net-voip/ekiga
 net-wireless/iwl6005-ucode
@@ -39,7 +40,6 @@ sys-process/vixie-cron
 virtual/jdk
 virtual/latex-base
 www-client/chromium
-www-client/firefox
 www-client/links
 www-plugins/adobe-flash
 www-plugins/google-talkplugin
