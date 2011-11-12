@@ -18,10 +18,12 @@ media-sound/amarok
 media-sound/mpg123
 media-sound/vorbis-tools
 media-video/gxine
+media-video/mplayer2
 net-analyzer/nmap
 net-misc/dhcpcd
 net-misc/whois
 net-misc/wicd
+net-p2p/rtorrent
 net-voip/ekiga
 net-wireless/iwl6005-ucode
 sci-physics/root
@@ -50,7 +52,6 @@ x11-base/xorg-server
 x11-misc/dmenu
 x11-misc/dzen
 x11-misc/hsetroot
-x11-misc/i3lock
 x11-misc/slock
 x11-misc/xcompmgr
 x11-terms/rxvt-unicode
