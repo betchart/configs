@@ -3,9 +3,13 @@ app-backup/rdiff-backup
 app-editors/nano
 app-emacs/haskell-mode
 app-portage/gentoolkit
+app-portage/mirrorselect
 app-text/gv
+app-text/pdftk
 dev-java/icedtea-web
 dev-python/numpy
+dev-tex/latex-beamer
+dev-texlive/texlive-latexextra
 dev-util/meld
 kde-base/kde-meta
 kde-base/svgpart
@@ -31,6 +35,7 @@ sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/portage
 sys-boot/grub
+sys-boot/unetbootin
 sys-fs/dosfstools
 sys-fs/udev
 sys-kernel/gentoo-sources
