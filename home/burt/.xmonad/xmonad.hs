@@ -19,6 +19,5 @@ main = xmonad $ defaultConfig
                        >> spawn "hsetroot -full /home/burt/.background"
                        >> spawn "xcompmgr &"
        }
-       `additionalKeys`
-       [ ((mod1Mask, xK_p), spawn "dmenu_run")
-       ]
+       `additionalKeys`  [ ((mod1Mask, xK_p), spawn "dmenu_run") ]
+       `additionalKeysP` [ ("M-C-l", spawn "slock") ]
