@@ -2,6 +2,7 @@ app-admin/sysklogd
 app-backup/rdiff-backup
 app-editors/nano
 app-emacs/haskell-mode
+app-misc/screen
 app-portage/gentoolkit
 app-portage/mirrorselect
 app-text/gv
@@ -25,6 +26,7 @@ media-video/gxine
 media-video/mplayer2
 net-analyzer/nmap
 net-misc/dhcpcd
+net-misc/keychain
 net-misc/whois
 net-misc/wicd
 net-p2p/rtorrent
