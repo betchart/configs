@@ -1,6 +1,6 @@
 import XMonad
 import XMonad.Layout.Spiral
-import XMonad.Layout.Accordion
+import XMonad.Util.EZConfig
 
 mylayoutHook = spiral (6/7) ||| Mirror tiled ||| Full
                where tiled = Tall 1 0.03 0.5 
@@ -9,7 +9,8 @@ mymanageHook :: ManageHook
 mymanageHook = composeAll
                 [ className =? "Kruler" --> doFloat ]
 
-main = xmonad defaultConfig
+
+main = xmonad $ defaultConfig
        { terminal = "konsole"
        , layoutHook = mylayoutHook
        , manageHook = mymanageHook
@@ -18,3 +19,6 @@ main = xmonad defaultConfig
                        >> spawn "hsetroot -full /home/burt/.background"
                        >> spawn "xcompmgr &"
        }
+       `additionalKeys`
+       [ ((mod1Mask, xK_p), spawn "dmenu_run")
+       ]
