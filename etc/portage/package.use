@@ -1,5 +1,5 @@
 app-editors/emacs		gtk toolkit-scroll-bars
-sci-physics/root		fftw
+sci-physics/root		fftw python
 sci-physics/pythia		examples
 net-dns/avahi			mdnsresponder-compat
 
