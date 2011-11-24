@@ -13,11 +13,14 @@ mymanageHook = composeAll
 main = xmonad $ defaultConfig
        { terminal = "konsole"
        , layoutHook = mylayoutHook
+       , modMask = mod4Mask
        , manageHook = mymanageHook
        , borderWidth = 0
        , startupHook = do spawn ". /home/burt/.xmodmap" 
                        >> spawn "hsetroot -full /home/burt/.background"
                        >> spawn "xcompmgr &"
        }
-       `additionalKeys`  [ ((mod1Mask, xK_p), spawn "dmenu_run") ]
-       `additionalKeysP` [ ("M-C-l", spawn "slock") ]
+       `additionalKeys`  [ ((mod4Mask, xK_p), spawn "dmenu_run") 
+                         , ((mod1Mask .|. controlMask, xK_l), spawn "slock")
+                         ]
+--       `additionalKeysP` [ ("M-C-l", spawn "slock") ]
