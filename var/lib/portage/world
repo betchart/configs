@@ -2,6 +2,7 @@ app-admin/sysklogd
 app-backup/rdiff-backup
 app-editors/nano
 app-emacs/haskell-mode
+app-emacs/php-mode
 app-misc/screen
 app-portage/gentoolkit
 app-portage/mirrorselect
@@ -16,11 +17,16 @@ kde-base/kde-meta
 kde-base/svgpart
 kde-misc/wicd-client-kde
 mail-client/thunderbird
+media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/transfig
 media-gfx/xfig
 media-sound/amarok
+media-sound/ario
+media-sound/mpc
+media-sound/mpd
 media-sound/mpg123
+media-sound/ncmpcpp
 media-sound/vorbis-tools
 media-video/gxine
 media-video/mplayer2

@@ -23,3 +23,4 @@ virtual/mysql			embedded
 dev-db/mysql			embedded
 
 
+media-sound/mpd mpg123 lastfmradio -lame -network -tcpd
