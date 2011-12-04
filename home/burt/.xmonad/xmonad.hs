@@ -19,6 +19,7 @@ main = xmonad $ defaultConfig
        , startupHook = do spawn ". /home/burt/.xmodmap" 
                        >> spawn "hsetroot -full /home/burt/.background"
                        >> spawn "xcompmgr &"
+                       >> spawn "xset r rate 200 40"
        }
        `additionalKeys`  [ ((mod1Mask .|. controlMask, xK_l), spawn "slock") ]
        
