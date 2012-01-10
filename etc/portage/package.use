@@ -22,3 +22,5 @@ dev-db/mysql			embedded
 media-sound/mpd mpg123 lastfmradio -lame -network -tcpd
 dev-python/numpy   lapack
 dev-lang/php apache2 gd truetype sqlite sqlite3
+>=net-libs/ptlib-2.6.7-r1 wav
+>=net-libs/opal-3.6.8-r2 sip

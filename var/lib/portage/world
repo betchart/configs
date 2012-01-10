@@ -19,6 +19,7 @@ kde-base/kde-meta
 kde-base/svgpart
 kde-misc/wicd-client-kde
 mail-client/thunderbird
+media-fonts/droid
 media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/transfig
