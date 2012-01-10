@@ -9,7 +9,9 @@ app-portage/mirrorselect
 app-text/gv
 app-text/pdftk
 dev-java/icedtea-web
+dev-lang/php
 dev-python/numpy
+dev-python/pypy
 dev-tex/latex-beamer
 dev-texlive/texlive-latexextra
 dev-util/meld
@@ -30,6 +32,7 @@ media-sound/ncmpcpp
 media-sound/vorbis-tools
 media-video/gxine
 media-video/mplayer2
+net-analyzer/netwatch
 net-analyzer/nmap
 net-misc/dhcpcd
 net-misc/keychain
@@ -38,6 +41,7 @@ net-misc/wicd
 net-p2p/rtorrent
 net-voip/ekiga
 net-wireless/iwl6005-ucode
+sci-libs/scipy
 sci-physics/root
 sys-apps/mlocate
 sys-apps/pciutils
@@ -55,10 +59,11 @@ sys-process/vixie-cron
 virtual/jdk
 virtual/latex-base
 www-client/chromium
+www-client/firefox-bin
 www-client/links
+www-client/lynx
 www-plugins/adobe-flash
 www-plugins/google-talkplugin
-www-plugins/lightspark
 x11-apps/xev
 x11-apps/xmodmap
 x11-base/xorg-server

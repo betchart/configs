@@ -5,14 +5,10 @@ net-dns/avahi			mdnsresponder-compat
 
 net-libs/xulrunner 		custom-optimization 
 mail-client/thunderbird 	custom-optimization -crypt
-www-client/firefox 		custom-optimization 
 
 sys-devel/gcc			gcj
 app-text/texlive		extra humanities science
 dev-java/icedtea		-nsplugin
-www-plugins/lightspark		-nsplugin
-
-
 
 ##### dependency resolution
 
@@ -24,3 +20,5 @@ dev-db/mysql			embedded
 
 
 media-sound/mpd mpg123 lastfmradio -lame -network -tcpd
+dev-python/numpy   lapack
+dev-lang/php apache2 gd truetype sqlite sqlite3
