@@ -30,6 +30,8 @@ media-sound/mpc
 media-sound/mpd
 media-sound/mpg123
 media-sound/ncmpcpp
+media-sound/normalize
+media-sound/sox
 media-sound/vorbis-tools
 media-video/gxine
 media-video/mplayer2
@@ -44,6 +46,7 @@ net-voip/ekiga
 net-wireless/iwl6005-ucode
 sci-libs/scipy
 sci-physics/root
+sys-apps/less
 sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/portage
