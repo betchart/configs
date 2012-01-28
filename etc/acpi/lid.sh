@@ -1,6 +1,7 @@
 #!/bin/bash
 
 Dis=`acpi | cut -f3 -d" "`
-if [ "$Dis" = "Discharging," ] ; then
-    pm-suspend
+echo $Dis > /lid_test.txt
+if [ $Dis = "Discharging," ] ; then
+    /usr/sbin/pm-suspend
 fi

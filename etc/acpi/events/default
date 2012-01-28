@@ -18,8 +18,8 @@
 event=.*
 action=/etc/acpi/default.sh %e
 
-event=button[ /]lid[ ]LID[ ]close
-action=/etc/acpi/lid.sh
-
 event=button[ /]sleep.*
 action=/usr/sbin/pm-suspend
+
+event=button[ /]battery.*
+action=/etc/acpi/bluetooth.sh
