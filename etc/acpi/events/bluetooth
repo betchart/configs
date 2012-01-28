@@ -1,0 +1,2 @@
+event=button[ /]battery.*
+action=/etc/acpi/bluetooth.sh

@@ -17,9 +17,3 @@
 
 event=.*
 action=/etc/acpi/default.sh %e
-
-event=button[ /]sleep.*
-action=/usr/sbin/pm-suspend
-
-event=button[ /]battery.*
-action=/etc/acpi/bluetooth.sh
