@@ -12,6 +12,8 @@ dev-java/icedtea		-nsplugin
 
 ##### dependency resolution
 
+=sys-apps/pciutils-3.1.7        -zlib
+
 dev-libs/libxml2		icu
 
 # amarok
