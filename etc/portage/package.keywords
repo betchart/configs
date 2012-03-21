@@ -1,17 +1,17 @@
 net-wireless/iwl6005-ucode	~amd64
 www-plugins/google-talkplugin	~amd64
-x11-misc/i3lock			~amd64
 
 dev-java/icedtea 		~amd64
 dev-java/icedtea-web 		~amd64
 
-dev-python/pypy			~amd64
+#dev-python/pypy		~amd64
 
 #XMONAD
 x11-wm/xmonad			~amd64
 x11-wm/xmonad-contrib		~amd64
 dev-haskell/x11			~amd64
 dev-haskell/syb 		~amd64
+dev-haskell/random              ~amd64
 
 #ROOT
 sci-physics/root		~amd64

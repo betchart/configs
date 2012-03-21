@@ -3,9 +3,6 @@ sci-physics/root		fftw python
 sci-physics/pythia		examples
 net-dns/avahi			mdnsresponder-compat
 
-net-libs/xulrunner 		custom-optimization 
-mail-client/thunderbird 	custom-optimization -crypt
-
 sys-devel/gcc			gcj
 app-text/texlive		extra humanities science
 dev-java/icedtea		-nsplugin
