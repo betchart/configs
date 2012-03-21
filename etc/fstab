@@ -20,8 +20,8 @@
 /dev/sdb2		/backup		ext4		noauto,noatime,user	0 2
 
 /dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
-#/dev/sdb1		/flash		vfat		noauto,noatime,user	0 2
 /dev/sdb1               /flash          auto            nodev,noexec,nosuid,rw,users,umask=007,gid=users
+/dev/mmcblk0p1          /sdcard         auto            nodev,noexec,nosuid,rw,users,umask=007,gid=users
 
 proc			/proc		proc		defaults	0 0
 shm			/dev/shm	tmpfs		nodev,nosuid,noexec	0 0
