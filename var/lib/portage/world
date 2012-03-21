@@ -11,14 +11,13 @@ app-text/pdftk
 dev-java/icedtea-web
 dev-lang/php
 dev-python/numpy
-dev-python/pypy
 dev-tex/latex-beamer
 dev-texlive/texlive-latexextra
 dev-util/meld
 kde-base/kde-meta
 kde-base/svgpart
 kde-misc/wicd-client-kde
-mail-client/thunderbird
+mail-client/thunderbird-bin
 media-fonts/droid
 media-gfx/gimp
 media-gfx/imagemagick
