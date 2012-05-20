@@ -9,12 +9,12 @@ app-portage/mirrorselect
 app-text/gv
 app-text/pdftk
 dev-java/icedtea-web
-dev-lang/php
 dev-python/numpy
 dev-tex/latex-beamer
 dev-texlive/texlive-latexextra
 dev-util/meld
 kde-base/kde-meta
+kde-base/oxygen-icons
 kde-base/svgpart
 kde-misc/wicd-client-kde
 mail-client/thunderbird-bin
