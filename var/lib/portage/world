@@ -8,11 +8,17 @@ app-portage/gentoolkit
 app-portage/mirrorselect
 app-text/gv
 app-text/pdftk
+app-text/zathura
+app-text/zathura-djvu
+app-text/zathura-pdf-poppler
+app-text/zathura-ps
 dev-java/icedtea-web
+dev-python/gnuplot-py
 dev-python/numpy
 dev-tex/latex-beamer
 dev-texlive/texlive-latexextra
 dev-util/meld
+dev-vcs/git
 kde-base/gwenview
 kde-base/kdm
 kde-base/kmix
@@ -21,6 +27,7 @@ kde-base/kruler
 kde-base/ksnapshot
 kde-base/okular
 kde-base/oxygen-icons
+lxde-base/lxrandr
 mail-client/thunderbird-bin
 media-fonts/droid
 media-gfx/gimp
@@ -46,8 +53,11 @@ net-misc/wicd
 net-p2p/rtorrent
 net-voip/ekiga
 net-wireless/iwl6005-ucode
+sci-libs/blas-atlas
+sci-libs/lapack-atlas
 sci-libs/scipy
 sci-physics/root
+sci-visualization/gnuplot
 sys-apps/less
 sys-apps/mlocate
 sys-apps/pciutils
@@ -72,6 +82,7 @@ www-plugins/adobe-flash
 www-plugins/google-talkplugin
 x11-apps/xev
 x11-apps/xmodmap
+x11-apps/xrandr
 x11-base/xorg-server
 x11-misc/dmenu
 x11-misc/dzen
