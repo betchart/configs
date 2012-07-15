@@ -1,32 +1,13 @@
 app-editors/emacs		gtk toolkit-scroll-bars
 sci-physics/root		fftw python
 sci-physics/pythia		examples
-net-dns/avahi			mdnsresponder-compat
 
 sys-devel/gcc			gcj
 app-text/texlive		extra humanities science
 dev-java/icedtea		-nsplugin
+media-sound/mpd                 mpg123 lastfmradio -lame -network -tcpd
 
 ##### dependency resolution
-
-=sys-apps/pciutils-3.1.7        -zlib
-
-dev-libs/libxml2		icu
-
-# amarok
-virtual/mysql			embedded
-dev-db/mysql			embedded
-
-
-media-sound/mpd mpg123 lastfmradio -lame -network -tcpd
-dev-python/numpy   lapack
-dev-lang/php apache2 gd truetype sqlite sqlite3
->=net-libs/ptlib-2.6.7-r1 wav
->=net-libs/opal-3.6.8-r2 sip
-
-=sys-libs/zlib-1.2.5.1-r2 minizip
->=dev-ruby/rubygems-1.8.24 ruby_targets_ruby19
-=dev-ruby/racc-1.4.6-r1 ruby_targets_ruby19
->=dev-ruby/rdoc-3.12 ruby_targets_ruby19
-=dev-ruby/rake-0.8.7-r6 ruby_targets_ruby19
-=dev-ruby/json-1.5.4-r1 ruby_targets_ruby19
+net-dns/avahi			mdnsresponder-compat
+x11-libs/qt-webkit              icu
+dev-python/numpy                lapack

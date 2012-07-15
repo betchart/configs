@@ -14,6 +14,7 @@ app-text/zathura-pdf-poppler
 app-text/zathura-ps
 dev-java/icedtea-web
 dev-python/gnuplot-py
+dev-python/matplotlib
 dev-python/numpy
 dev-tex/latex-beamer
 dev-texlive/texlive-latexextra
@@ -30,11 +31,9 @@ kde-base/oxygen-icons
 lxde-base/lxrandr
 mail-client/thunderbird-bin
 media-fonts/droid
-media-gfx/gimp
 media-gfx/imagemagick
 media-gfx/transfig
 media-gfx/xfig
-media-sound/ario
 media-sound/mpc
 media-sound/mpd
 media-sound/mpg123
@@ -51,7 +50,6 @@ net-misc/keychain
 net-misc/whois
 net-misc/wicd
 net-p2p/rtorrent
-net-voip/ekiga
 net-wireless/iwl6005-ucode
 sci-libs/blas-atlas
 sci-libs/lapack-atlas
