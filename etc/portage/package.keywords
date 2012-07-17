@@ -1,6 +1,11 @@
 net-wireless/iwl6005-ucode	~amd64
 www-plugins/google-talkplugin	~amd64
 
+dev-java/icedtea                ~amd64
+dev-java/icedtea-web            ~amd64
+virtual/jdk                     ~amd64
+virtual/jre                     ~amd64
+
 #dev-python/pypy		~amd64
 
 #XMONAD
