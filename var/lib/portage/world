@@ -46,12 +46,12 @@ media-video/gxine
 media-video/mplayer2
 net-analyzer/netwatch
 net-analyzer/nmap
+net-analyzer/traceroute
 net-misc/dhcpcd
 net-misc/keychain
 net-misc/whois
 net-misc/wicd
 net-p2p/rtorrent
-net-wireless/iwl6005-ucode
 sci-libs/blas-atlas
 sci-libs/lapack-atlas
 sci-libs/scipy
@@ -63,7 +63,9 @@ sys-apps/pciutils
 sys-apps/portage
 sys-boot/grub
 sys-boot/unetbootin
+sys-firmware/iwl6005-ucode
 sys-fs/dosfstools
+sys-fs/ntfs3g
 sys-fs/udev
 sys-kernel/gentoo-sources
 sys-kernel/module-rebuild
