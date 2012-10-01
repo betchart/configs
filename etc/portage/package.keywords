@@ -1,4 +1,4 @@
-net-wireless/iwl6005-ucode	~amd64
+sys-firmware/iwl6005-ucode	~amd64
 www-plugins/google-talkplugin	~amd64
 
 dev-java/icedtea                ~amd64
