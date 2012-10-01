@@ -11,3 +11,4 @@ media-sound/mpd                 mpg123 lastfmradio -lame -network -tcpd
 net-dns/avahi			mdnsresponder-compat
 x11-libs/qt-webkit              icu
 dev-python/numpy                lapack
+>=dev-libs/libxml2-2.8.0-r2 icu
