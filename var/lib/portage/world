@@ -1,3 +1,4 @@
+app-admin/emacs-updater
 app-admin/sysklogd
 app-backup/rdiff-backup
 app-editors/nano
@@ -13,6 +14,7 @@ app-text/zathura-djvu
 app-text/zathura-pdf-poppler
 app-text/zathura-ps
 dev-java/icedtea-web
+dev-lang/R
 dev-python/gnuplot-py
 dev-python/matplotlib
 dev-python/numpy
@@ -31,6 +33,7 @@ kde-base/oxygen-icons
 lxde-base/lxrandr
 mail-client/thunderbird-bin
 media-fonts/droid
+media-fonts/font-xfree86-type1
 media-gfx/imagemagick
 media-gfx/transfig
 media-gfx/xfig
@@ -52,8 +55,9 @@ net-misc/keychain
 net-misc/whois
 net-misc/wicd
 net-p2p/rtorrent
-sci-libs/blas-atlas
-sci-libs/lapack-atlas
+net-voip/ekiga
+net-voip/linphone
+net-wireless/rfkill
 sci-libs/scipy
 sci-physics/root
 sci-visualization/gnuplot

@@ -8,9 +8,17 @@ virtual/jre                     ~amd64
 
 #dev-python/pypy		~amd64
 
-#XMONAD
+# ROOT
+sci-physics/root		~amd64
+sci-libs/scipy			~amd64
+
+# XMONAD
 x11-wm/xmonad			~amd64
 x11-wm/xmonad-contrib		~amd64
 dev-haskell/x11			~amd64
-dev-haskell/syb 		~amd64
 dev-haskell/random              ~amd64
+dev-haskell/extensible-exceptions ~amd64
+
+# EKIGA
+net-voip/ekiga			~amd64
+net-libs/ptlib			~amd64
