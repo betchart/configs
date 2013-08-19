@@ -1,0 +1,31 @@
+app-editors/emacs		gtk toolkit-scroll-bars
+sci-physics/root		fftw python
+sci-physics/pythia		examples
+
+sys-devel/gcc			gcj
+app-text/texlive		extra humanities science
+dev-java/icedtea		-nsplugin
+media-sound/mpd                 mpg123 lastfmradio -lame -network -tcpd
+
+media-gfx/inkscape   		postscript
+media-gfx/pstoedit  		imagemagick plotutils
+
+##### dependency resolution
+net-dns/avahi			mdnsresponder-compat
+# move x11-libs/qt-webkit dev-qt/qtwebkit
+dev-qt/qtwebkit              icu
+dev-python/numpy                lapack
+>=dev-libs/libxml2-2.8.0-r2 icu
+net-libs/ptlib wav dtmf
+net-libs/opal sip sipim dtmf
+
+net-wireless/bluez test-programs
+sys-libs/zlib minizip
+sci-physics/lhapdf   python
+>=media-libs/lcms-1.19:0 python
+=media-libs/mesa-9.1.2-r1 gles2
+
+
+sci-libs/scipy			-python_targets_python3_2
+=media-video/ffmpeg-1.0.7 opus
+kde-base/okular ebook

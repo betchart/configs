@@ -1,0 +1,45 @@
+sys-firmware/iwl6005-ucode	~amd64
+www-plugins/google-talkplugin	~amd64
+
+dev-java/icedtea                ~amd64
+dev-java/icedtea-web            ~amd64
+virtual/jdk                     ~amd64
+virtual/jre                     ~amd64
+
+#dev-python/pypy		~amd64
+
+# ROOT
+sci-physics/root		~amd64
+sci-libs/scipy			~amd64
+
+# XMONAD
+x11-wm/xmonad			~amd64
+x11-wm/xmonad-contrib		~amd64
+dev-haskell/x11			~amd64
+dev-haskell/random              ~amd64
+dev-haskell/extensible-exceptions ~amd64
+
+=dev-haskell/data-default-class-0.0.1 ~amd64
+=dev-haskell/data-default-instances-base-0.0.1 ~amd64
+=dev-haskell/data-default-0.5.3 ~amd64
+=dev-haskell/data-default-instances-dlist-0.0.1 ~amd64
+=dev-haskell/dlist-0.5-r1 ~amd64
+=dev-haskell/data-default-instances-old-locale-0.0.1 ~amd64
+=dev-python/cython-0.18-r1 ~amd64
+=dev-haskell/data-default-instances-containers-0.0.1 ~amd64
+
+
+
+# EKIGA
+net-voip/ekiga			~amd64
+net-libs/ptlib			~amd64
+
+# ARDUINO
+dev-embedded/arduino		~amd64
+dev-embedded/uisp		~amd64
+
+# TMP KERNEL
+=dev-python/numpy-1.6.2-r2 ~amd64
+=dev-python/imaging-1.1.7-r2 ~amd64
+=dev-python/pep8-1.4.5 ~amd64
+dev-tex/biblatex ~amd64
