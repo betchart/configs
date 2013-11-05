@@ -2,7 +2,6 @@ sys-firmware/iwl6005-ucode	~amd64
 www-plugins/google-talkplugin	~amd64
 
 dev-java/icedtea                ~amd64
-dev-java/icedtea-web            ~amd64
 virtual/jdk                     ~amd64
 virtual/jre                     ~amd64
 
@@ -28,7 +27,7 @@ dev-haskell/extensible-exceptions ~amd64
 =dev-python/cython-0.18-r1 ~amd64
 =dev-haskell/data-default-instances-containers-0.0.1 ~amd64
 
-
+net-misc/tor			~amd64
 
 # EKIGA
 net-voip/ekiga			~amd64
@@ -43,3 +42,6 @@ dev-embedded/uisp		~amd64
 =dev-python/imaging-1.1.7-r2 ~amd64
 =dev-python/pep8-1.4.5 ~amd64
 dev-tex/biblatex ~amd64
+=media-libs/lcms-2.5-r1 ~amd64
+=app-admin/eselect-java-0.1.0 ~amd64
+=media-libs/tiff-4.0.3-r5 ~amd64

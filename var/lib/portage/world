@@ -6,12 +6,12 @@ app-emacs/haskell-mode
 app-emacs/php-mode
 app-misc/colordiff
 app-misc/screen
-app-mobilephone/obexftp
 app-portage/gentoolkit
 app-portage/layman
 app-portage/mirrorselect
 app-text/gv
 app-text/pdftk
+app-text/poppler
 app-text/psutils
 app-text/zathura
 app-text/zathura-djvu
@@ -20,7 +20,6 @@ app-text/zathura-ps
 cross-avr/avr-libc
 cross-avr/binutils
 cross-avr/gcc
-dev-embedded/arduino
 dev-java/icedtea-web
 dev-lang/R
 dev-libs/libgcrypt
@@ -67,6 +66,7 @@ net-analyzer/traceroute
 net-misc/dhcpcd
 net-misc/keychain
 net-misc/ntp
+net-misc/telnet-bsd
 net-misc/tor
 net-misc/whois
 net-misc/wicd
@@ -84,7 +84,9 @@ sys-apps/lm_sensors
 sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/portage
+sys-apps/usbutils
 sys-boot/grub
+sys-boot/grub:2
 sys-boot/unetbootin
 sys-firmware/iwl6005-ucode
 sys-fs/dosfstools
