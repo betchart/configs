@@ -1,4 +1,4 @@
-#	$OpenBSD: ssh_config,v 1.26 2010/01/11 01:39:46 dtucker Exp $
+#	$OpenBSD: ssh_config,v 1.27 2013/05/16 02:00:34 dtucker Exp $
 
 # This is the ssh client system-wide configuration file.  See
 # ssh_config(5) for more information.  This file provides defaults for
@@ -17,16 +17,16 @@
 # list of available options, their meanings and defaults, please see the
 # ssh_config(5) man page.
 
-Host lxplus*
+#Host lxplus*
 #   ForwardAgent no
 #   ForwardX11 no
 #   RhostsRSAAuthentication no
 #   RSAAuthentication yes
 #   PasswordAuthentication yes
 #   HostbasedAuthentication no
-   GSSAPIAuthentication yes
-   GSSAPIDelegateCredentials yes 
-   GSSAPITrustDns yes
+#   GSSAPIAuthentication yes
+#   GSSAPIDelegateCredentials yes 
+#   GSSAPITrustDns yes
 #   BatchMode no
 #   CheckHostIP yes
 #   AddressFamily any
@@ -46,3 +46,23 @@ Host lxplus*
 #   PermitLocalCommand no
 #   VisualHostKey no
 #   ProxyCommand ssh -q -W %h:%p gateway.example.com
+#   RekeyLimit 1G 1h
+
+# Send locale environment variables #367017
+SendEnv LANG LC_*
+
+# from https://stribika.github.io/2015/01/04/secure-secure-shell.html
+
+# Github needs diffie-hellman-group-exchange-sha1 some of the time but not always.
+#Host github.com
+#    KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1
+
+Host *.fnal.gov
+    KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1
+
+Host *
+    KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256
+    Ciphers chacha20-poly1305@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr
+    MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-ripemd160-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512,hmac-sha2-256,hmac-ripemd160,umac-128@openssh.com
+
+

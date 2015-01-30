@@ -29,3 +29,20 @@ sci-physics/lhapdf   python
 sci-libs/scipy			-python_targets_python3_2
 =media-video/ffmpeg-1.0.7 opus
 kde-base/okular ebook
+=media-libs/harfbuzz-0.9.23 icu
+# required by net-p2p/bitcoin-qt-0.8.5
+# required by bitcoin-qt (argument)
+=dev-libs/leveldb-1.9.0-r5 -snappy
+=media-gfx/exiv2-0.23-r1 xmp
+=media-libs/harfbuzz-0.9.28 icu
+www-plugins/lightspark nsplugin ffmpeg
+net-print/hplip scanner snmp
+media-gfx/xsane ocr
+app-text/tesseract osd
+>=virtual/ffmpeg-9-r1 threads
+=media-video/ffmpeg-1.2.6-r1 threads
+# required by kde-base/libkexiv2-4.14.3
+# required by kde-base/okular-4.14.3[jpeg]
+# required by @selected
+# required by @world (argument)
+>=media-gfx/exiv2-0.24 xmp
