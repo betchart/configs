@@ -26,6 +26,9 @@ cross-avr/binutils
 cross-avr/gcc
 cross-avr/gcc:4.6
 dev-embedded/arduino
+dev-haskell/cabal-install
+dev-haskell/hscolour
+dev-haskell/quickcheck
 dev-java/icedtea-web
 dev-lang/R
 dev-lang/go
@@ -34,6 +37,7 @@ dev-libs/json-glib
 dev-libs/libdaemon
 dev-libs/libgcrypt
 dev-libs/libsodium
+dev-python/astropy
 dev-python/matplotlib
 dev-python/numpy
 dev-python/pep8
@@ -47,11 +51,11 @@ dev-tex/feynmf
 dev-tex/latex-beamer
 dev-texlive/texlive-humanities
 dev-texlive/texlive-latexextra
-dev-util/android-sdk-update-manager
 dev-util/android-tools
 dev-util/patchelf
 dev-vcs/git
 kde-base/gwenview
+kde-base/kdelibs
 kde-base/kdm
 kde-base/kmix
 kde-base/konsole
@@ -68,8 +72,10 @@ media-gfx/imagemagick
 media-gfx/inkscape
 media-gfx/librecad
 media-gfx/pstoedit
+media-gfx/sane-backends
 media-gfx/transfig
 media-gfx/xfig
+media-gfx/xsane
 media-sound/ario
 media-sound/mpg123
 media-sound/normalize
@@ -78,7 +84,6 @@ media-sound/sox
 media-sound/vorbis-tools
 media-video/guvcview
 media-video/gxine
-media-video/mplayer2
 net-analyzer/netwatch
 net-analyzer/nmap
 net-analyzer/traceroute
@@ -87,7 +92,6 @@ net-dns/bind-tools
 net-misc/dhcpcd
 net-misc/keychain
 net-misc/ntp
-net-misc/owncloud-client
 net-misc/ssvnc
 net-misc/telnet-bsd
 net-misc/tor
@@ -97,7 +101,6 @@ net-p2p/bitcoin-qt
 net-p2p/rtorrent
 net-print/hplip
 net-proxy/privoxy
-net-voip/linphone
 net-wireless/bluez
 net-wireless/rfkill
 net-wireless/rtl-sdr
@@ -117,16 +120,16 @@ sys-boot/grub
 sys-boot/grub:2
 sys-boot/unetbootin
 sys-devel/crossdev
+sys-devel/gcc
 sys-firmware/iwl6005-ucode
 sys-fs/dosfstools
 sys-fs/ntfs3g
 sys-fs/udev
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:3.12.13
 sys-kernel/module-rebuild
 sys-power/acpi
 sys-power/acpid
-sys-power/cpufrequtils
+sys-power/cpupower
 sys-power/powertop
 sys-process/vixie-cron
 virtual/jdk
@@ -136,7 +139,6 @@ www-client/firefox-bin
 www-client/links
 www-client/lynx
 www-plugins/gnash
-www-plugins/lightspark
 x11-apps/xev
 x11-apps/xmodmap
 x11-apps/xrandr
