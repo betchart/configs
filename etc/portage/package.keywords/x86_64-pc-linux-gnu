@@ -4,14 +4,16 @@ www-plugins/google-talkplugin	~amd64
 dev-java/icedtea-web		~amd64
 dev-java/icedtea                ~amd64
 dev-java/icedtea-sound		~amd64
-virtual/jdk                     ~amd64
-virtual/jre                     ~amd64
+# virtual/jdk                     ~amd64
+# virtual/jre                     ~amd64
 
 #dev-python/pypy		~amd64
 
 # ROOT
-sci-physics/root		~amd64
-sci-libs/scipy			~amd64
+=sci-physics/root-5.34.28-r1	~amd64
+#sci-physics/root-5.32.03-r2
+=sci-libs/scipy-0.15.0		~amd64
+# sci-libs/scipy		~amd64
 
 # XMONAD
 x11-wm/xmonad			~amd64
@@ -45,7 +47,8 @@ dev-embedded/uisp		~amd64
 =dev-python/pep8-1.4.5 ~amd64
 dev-tex/biblatex ~amd64
 =media-libs/lcms-2.5-r1 ~amd64
-=app-admin/eselect-java-0.1.0 ~amd64
+# move app-admin/eselect-java app-eselect/eselect-java
+=app-eselect/eselect-java-0.1.0 ~amd64
 =media-libs/tiff-4.0.3-r5 ~amd64
 =dev-util/android-tools-0_p20130123 ~amd64
 =dev-libs/libsodium-0.4.5 ~amd64
@@ -76,3 +79,19 @@ net-im/utox ~amd64
 =mail-filter/spambayes-1.1_beta1 ~amd64
 # required by dev-python/pgpdump (argument)
 =dev-python/pgpdump-1.5 ~amd64
+# required by dev-haskell/cabal-install-1.20.0.3-r2
+# required by dev-haskell/cabal-install (argument)
+=dev-haskell/cabal-1.20.0.2 ~amd64
+# required by dev-haskell/cabal-install (argument)
+=dev-haskell/cabal-install-1.20.0.3-r2 ~amd64
+# required by dev-python/astropy-0.4.4::gentoo
+# required by dev-python/astropy (argument)
+=dev-python/astropy-helpers-0.4.1 ~amd64
+# required by dev-python/astropy-0.4.4::gentoo
+# required by dev-python/astropy (argument)
+=sci-astronomy/wcslib-4.23 ~amd64
+# required by dev-python/astropy-0.4.4::gentoo
+# required by dev-python/astropy (argument)
+=sci-astronomy/erfa-1.1.0 ~amd64
+# required by dev-python/astropy (argument)
+=dev-python/astropy-0.4.4 ~amd64

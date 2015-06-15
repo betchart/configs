@@ -46,3 +46,32 @@ app-text/tesseract osd
 # required by @selected
 # required by @world (argument)
 >=media-gfx/exiv2-0.24 xmp
+# required by virtual/bitcoin-leveldb-0
+# required by net-p2p/bitcoin-qt-0.8.6-r1
+# required by @selected
+# required by @world (argument)
+=dev-libs/leveldb-1.9.0-r6 -snappy
+# required by www-client/chromium-40.0.2214.91
+# required by @selected
+# required by @world (argument)
+=media-libs/harfbuzz-0.9.35 icu
+# required by www-client/chromium-42.0.2311.90::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/harfbuzz-0.9.38 icu
+# required by gnome-base/gnome-keyring-3.14.0::gentoo
+# required by app-crypt/libsecret-0.18::gentoo
+# required by www-client/chromium-42.0.2311.90::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/gcr-3.14.0 gtk
+# required by sys-devel/clang-3.5.0-r100::gentoo
+# required by sci-physics/root-6.02.05-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-devel/llvm-3.5.0 clang
+# required by virtual/ffmpeg-9-r1::gentoo
+# required by media-video/guvcview-1.6.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-2.2.14 threads

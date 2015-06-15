@@ -10,6 +10,7 @@
 (set-default 'truncate-lines t)
 (menu-bar-mode 0)
 (tool-bar-mode 0)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-indent)
 
 ;set up association between file extensions and modes
 ;(setq auto-mode-alist
